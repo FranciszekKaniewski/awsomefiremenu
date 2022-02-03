@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 5px;
+}
+
+.menu{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+h1{
+    flex-basis: 60%;
+}
+
+ul{
+    flex-basis: 40%;
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    text-align: center;
+    flex-basis: 20%;
+}
+
+a{
+    color: rgb(148, 84, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
